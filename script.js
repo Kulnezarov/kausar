@@ -67,7 +67,7 @@
     document.getElementById('toHome').addEventListener('click', () => showSection('home'));
 
     function updateTimer() {
-        const startDate = new Date('2025-05-25'); 
+        const startDate = new Date('2025-02-25'); 
         const now = new Date();
         const diff = now - startDate;
 
